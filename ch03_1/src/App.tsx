@@ -1,8 +1,9 @@
-import Boostrap from "./pages/Boostrap";
-import Icon from "./pages/Icon";
 import Style from "./pages/Style";
 import UsingIcon from "./pages/UsingIcon";
 import UsingIconWithCSSClass from "./pages/UsingIconWithCSSClass";
+import "./App.css";
+import { Icon } from "./pages/Icon";
+import Bootstrap from "./pages/Bootstrap";
 
 export default function App() {
   return (
@@ -11,8 +12,8 @@ export default function App() {
       <UsingIconWithCSSClass />
       <UsingIcon />
       <Style />
-      <Icon />
-      <Boostrap />
+      <Icon name={""} />
+      <Bootstrap />
     </div>
   );
 }
