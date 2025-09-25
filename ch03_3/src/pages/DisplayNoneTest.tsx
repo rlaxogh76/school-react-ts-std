@@ -1,5 +1,5 @@
 import {Title} from '../components'
-export default function CopyMe() {
+export default function DisplayNoneTest() {
   return (
     <section>
       <Title>DisplayNoneTest</Title>
